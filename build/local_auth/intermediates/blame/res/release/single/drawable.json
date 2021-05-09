@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "/home/sumit/projects/flutter/messaging_app/Chatter-App/build/local_auth/intermediates/res/merged/release/drawable/ic_priority_high_white_24dp.xml",
+        "source": "/home/sumit/.pub-cache/hosted/pub.dartlang.org/local_auth-0.4.0+1/android/src/main/res/drawable/ic_priority_high_white_24dp.xml"
+    },
+    {
+        "merged": "/home/sumit/projects/flutter/messaging_app/Chatter-App/build/local_auth/intermediates/res/merged/release/drawable/notification_bg_low.xml",
+        "source": "/home/sumit/.gradle/caches/transforms-2/files-2.1/3aaf6e5219b7f981ec263df919098c6f/core-1.1.0/res/drawable/notification_bg_low.xml"
+    },
+    {
+        "merged": "/home/sumit/projects/flutter/messaging_app/Chatter-App/build/local_auth/intermediates/res/merged/release/drawable/notification_icon_background.xml",
+        "source": "/home/sumit/.gradle/caches/transforms-2/files-2.1/3aaf6e5219b7f981ec263df919098c6f/core-1.1.0/res/drawable/notification_icon_background.xml"
+    },
+    {
+        "merged": "/home/sumit/projects/flutter/messaging_app/Chatter-App/build/local_auth/intermediates/res/merged/release/drawable/fingerprint_success_icon.xml",
+        "source": "/home/sumit/.pub-cache/hosted/pub.dartlang.org/local_auth-0.4.0+1/android/src/main/res/drawable/fingerprint_success_icon.xml"
+    },
+    {
+        "merged": "/home/sumit/projects/flutter/messaging_app/Chatter-App/build/local_auth/intermediates/res/merged/release/drawable/notification_tile_bg.xml",
+        "source": "/home/sumit/.gradle/caches/transforms-2/files-2.1/3aaf6e5219b7f981ec263df919098c6f/core-1.1.0/res/drawable/notification_tile_bg.xml"
+    },
+    {
+        "merged": "/home/sumit/projects/flutter/messaging_app/Chatter-App/build/local_auth/intermediates/res/merged/release/drawable/notification_bg.xml",
+        "source": "/home/sumit/.gradle/caches/transforms-2/files-2.1/3aaf6e5219b7f981ec263df919098c6f/core-1.1.0/res/drawable/notification_bg.xml"
+    },
+    {
+        "merged": "/home/sumit/projects/flutter/messaging_app/Chatter-App/build/local_auth/intermediates/res/merged/release/drawable/ic_fingerprint_white_24dp.xml",
+        "source": "/home/sumit/.pub-cache/hosted/pub.dartlang.org/local_auth-0.4.0+1/android/src/main/res/drawable/ic_fingerprint_white_24dp.xml"
+    },
+    {
+        "merged": "/home/sumit/projects/flutter/messaging_app/Chatter-App/build/local_auth/intermediates/res/merged/release/drawable/fingerprint_initial_icon.xml",
+        "source": "/home/sumit/.pub-cache/hosted/pub.dartlang.org/local_auth-0.4.0+1/android/src/main/res/drawable/fingerprint_initial_icon.xml"
+    },
+    {
+        "merged": "/home/sumit/projects/flutter/messaging_app/Chatter-App/build/local_auth/intermediates/res/merged/release/drawable/ic_done_white_24dp.xml",
+        "source": "/home/sumit/.pub-cache/hosted/pub.dartlang.org/local_auth-0.4.0+1/android/src/main/res/drawable/ic_done_white_24dp.xml"
+    },
+    {
+        "merged": "/home/sumit/projects/flutter/messaging_app/Chatter-App/build/local_auth/intermediates/res/merged/release/drawable/fingerprint_warning_icon.xml",
+        "source": "/home/sumit/.pub-cache/hosted/pub.dartlang.org/local_auth-0.4.0+1/android/src/main/res/drawable/fingerprint_warning_icon.xml"
+    }
+]

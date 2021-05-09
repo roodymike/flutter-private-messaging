@@ -1,0 +1,231 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.ishandeveloper.chatter"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->/home/sumit/projects/flutter/messaging_app/Chatter-App/android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->/home/sumit/projects/flutter/messaging_app/Chatter-App/android/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/home/sumit/projects/flutter/messaging_app/Chatter-App/android/app/src/main/AndroidManifest.xml:4:1-63
+11-->/home/sumit/projects/flutter/messaging_app/Chatter-App/android/app/src/main/AndroidManifest.xml:4:18-60
+12    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
+12-->/home/sumit/projects/flutter/messaging_app/Chatter-App/android/app/src/main/AndroidManifest.xml:5:5-73
+12-->/home/sumit/projects/flutter/messaging_app/Chatter-App/android/app/src/main/AndroidManifest.xml:5:22-71
+13    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+14    <!-- <uses-sdk android:minSdkVersion="14" /> -->
+15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+15-->[com.google.firebase:firebase-firestore:21.3.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/d7922b024b57a72091c5bae297ef3c43/jetified-firebase-firestore-21.3.0/AndroidManifest.xml:13:5-79
+15-->[com.google.firebase:firebase-firestore:21.3.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/d7922b024b57a72091c5bae297ef3c43/jetified-firebase-firestore-21.3.0/AndroidManifest.xml:13:22-76
+16    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+16-->[com.google.firebase:firebase-iid:20.0.1] /home/sumit/.gradle/caches/transforms-2/files-2.1/8ae3a27e5f765ecccfa84ccab34e1473/firebase-iid-20.0.1/AndroidManifest.xml:24:5-68
+16-->[com.google.firebase:firebase-iid:20.0.1] /home/sumit/.gradle/caches/transforms-2/files-2.1/8ae3a27e5f765ecccfa84ccab34e1473/firebase-iid-20.0.1/AndroidManifest.xml:24:22-65
+17    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+17-->[com.google.firebase:firebase-iid:20.0.1] /home/sumit/.gradle/caches/transforms-2/files-2.1/8ae3a27e5f765ecccfa84ccab34e1473/firebase-iid-20.0.1/AndroidManifest.xml:26:5-82
+17-->[com.google.firebase:firebase-iid:20.0.1] /home/sumit/.gradle/caches/transforms-2/files-2.1/8ae3a27e5f765ecccfa84ccab34e1473/firebase-iid-20.0.1/AndroidManifest.xml:26:22-79
+18    <!--
+19 io.flutter.app.FlutterApplication is an android.app.Application that
+20         calls FlutterMain.startInitialization(this); in its onCreate method.
+21         In most cases you can leave this as-is, but you if you want to provide
+22         additional functionality it is fine to subclass or reimplement
+23         FlutterApplication and put your custom class here.
+24    -->
+25    <application
+25-->/home/sumit/projects/flutter/messaging_app/Chatter-App/android/app/src/main/AndroidManifest.xml:12:5-37:19
+26        android:name="io.flutter.app.FlutterApplication"
+26-->/home/sumit/projects/flutter/messaging_app/Chatter-App/android/app/src/main/AndroidManifest.xml:13:9-57
+27        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+27-->[androidx.core:core:1.1.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/3aaf6e5219b7f981ec263df919098c6f/core-1.1.0/AndroidManifest.xml:24:18-86
+28        android:icon="@mipmap/ic_launcher"
+28-->/home/sumit/projects/flutter/messaging_app/Chatter-App/android/app/src/main/AndroidManifest.xml:15:9-43
+29        android:label="Chatter" >
+29-->/home/sumit/projects/flutter/messaging_app/Chatter-App/android/app/src/main/AndroidManifest.xml:14:9-32
+30        <activity
+30-->/home/sumit/projects/flutter/messaging_app/Chatter-App/android/app/src/main/AndroidManifest.xml:16:9-31:20
+31            android:name="com.example.chat_app.MainActivity"
+31-->/home/sumit/projects/flutter/messaging_app/Chatter-App/android/app/src/main/AndroidManifest.xml:17:13-41
+32            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+32-->/home/sumit/projects/flutter/messaging_app/Chatter-App/android/app/src/main/AndroidManifest.xml:20:13-163
+33            android:hardwareAccelerated="true"
+33-->/home/sumit/projects/flutter/messaging_app/Chatter-App/android/app/src/main/AndroidManifest.xml:21:13-47
+34            android:launchMode="singleTop"
+34-->/home/sumit/projects/flutter/messaging_app/Chatter-App/android/app/src/main/AndroidManifest.xml:18:13-43
+35            android:theme="@style/LaunchTheme"
+35-->/home/sumit/projects/flutter/messaging_app/Chatter-App/android/app/src/main/AndroidManifest.xml:19:13-47
+36            android:windowSoftInputMode="adjustResize" >
+36-->/home/sumit/projects/flutter/messaging_app/Chatter-App/android/app/src/main/AndroidManifest.xml:22:13-55
+37            <intent-filter>
+37-->/home/sumit/projects/flutter/messaging_app/Chatter-App/android/app/src/main/AndroidManifest.xml:23:13-26:29
+38                <action android:name="android.intent.action.MAIN" />
+38-->/home/sumit/projects/flutter/messaging_app/Chatter-App/android/app/src/main/AndroidManifest.xml:24:17-68
+38-->/home/sumit/projects/flutter/messaging_app/Chatter-App/android/app/src/main/AndroidManifest.xml:24:25-66
+39
+40                <category android:name="android.intent.category.LAUNCHER" />
+40-->/home/sumit/projects/flutter/messaging_app/Chatter-App/android/app/src/main/AndroidManifest.xml:25:17-76
+40-->/home/sumit/projects/flutter/messaging_app/Chatter-App/android/app/src/main/AndroidManifest.xml:25:27-74
+41            </intent-filter>
+42            <intent-filter>
+42-->/home/sumit/projects/flutter/messaging_app/Chatter-App/android/app/src/main/AndroidManifest.xml:27:13-30:29
+43                <action android:name="FLUTTER_NOTIFICATION_CLICK" />
+43-->/home/sumit/projects/flutter/messaging_app/Chatter-App/android/app/src/main/AndroidManifest.xml:28:17-69
+43-->/home/sumit/projects/flutter/messaging_app/Chatter-App/android/app/src/main/AndroidManifest.xml:28:25-66
+44
+45                <category android:name="android.intent.category.DEFAULT" />
+45-->/home/sumit/projects/flutter/messaging_app/Chatter-App/android/app/src/main/AndroidManifest.xml:29:17-76
+45-->/home/sumit/projects/flutter/messaging_app/Chatter-App/android/app/src/main/AndroidManifest.xml:29:27-73
+46            </intent-filter>
+47        </activity>
+48        <!--
+49             Don't delete the meta-data below.
+50             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+51        -->
+52        <meta-data
+52-->/home/sumit/projects/flutter/messaging_app/Chatter-App/android/app/src/main/AndroidManifest.xml:34:9-36:33
+53            android:name="flutterEmbedding"
+53-->/home/sumit/projects/flutter/messaging_app/Chatter-App/android/app/src/main/AndroidManifest.xml:35:13-44
+54            android:value="2" />
+54-->/home/sumit/projects/flutter/messaging_app/Chatter-App/android/app/src/main/AndroidManifest.xml:36:13-30
+55
+56        <service
+56-->[:firebase_auth] /home/sumit/projects/flutter/messaging_app/Chatter-App/build/firebase_auth/intermediates/library_manifest/release/AndroidManifest.xml:8:9-12:19
+57            android:name="com.google.firebase.components.ComponentDiscoveryService"
+57-->[:firebase_auth] /home/sumit/projects/flutter/messaging_app/Chatter-App/build/firebase_auth/intermediates/library_manifest/release/AndroidManifest.xml:8:18-89
+58            android:directBootAware="true"
+58-->[com.google.firebase:firebase-common:19.3.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/7ee6e73811253eb14580a7aea676506b/jetified-firebase-common-19.3.0/AndroidManifest.xml:34:13-43
+59            android:exported="false" >
+59-->[com.google.firebase:firebase-auth:19.2.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/a83bb62cb43b672cf00b874e0ee6110c/firebase-auth-19.2.0/AndroidManifest.xml:35:13-37
+60            <meta-data
+60-->[:firebase_auth] /home/sumit/projects/flutter/messaging_app/Chatter-App/build/firebase_auth/intermediates/library_manifest/release/AndroidManifest.xml:9:13-11:85
+61                android:name="com.google.firebase.components:io.flutter.plugins.firebaseauth.FlutterFirebaseAppRegistrar"
+61-->[:firebase_auth] /home/sumit/projects/flutter/messaging_app/Chatter-App/build/firebase_auth/intermediates/library_manifest/release/AndroidManifest.xml:10:17-122
+62                android:value="com.google.firebase.components.ComponentRegistrar" />
+62-->[:firebase_auth] /home/sumit/projects/flutter/messaging_app/Chatter-App/build/firebase_auth/intermediates/library_manifest/release/AndroidManifest.xml:11:17-82
+63            <meta-data
+63-->[:cloud_firestore] /home/sumit/projects/flutter/messaging_app/Chatter-App/build/cloud_firestore/intermediates/library_manifest/release/AndroidManifest.xml:9:13-11:85
+64                android:name="com.google.firebase.components:io.flutter.plugins.firebase.cloudfirestore.FlutterFirebaseAppRegistrar"
+64-->[:cloud_firestore] /home/sumit/projects/flutter/messaging_app/Chatter-App/build/cloud_firestore/intermediates/library_manifest/release/AndroidManifest.xml:10:17-133
+65                android:value="com.google.firebase.components.ComponentRegistrar" />
+65-->[:cloud_firestore] /home/sumit/projects/flutter/messaging_app/Chatter-App/build/cloud_firestore/intermediates/library_manifest/release/AndroidManifest.xml:11:17-82
+66            <meta-data
+66-->[:firebase_core] /home/sumit/projects/flutter/messaging_app/Chatter-App/build/firebase_core/intermediates/library_manifest/release/AndroidManifest.xml:9:13-11:85
+67                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseAppRegistrar"
+67-->[:firebase_core] /home/sumit/projects/flutter/messaging_app/Chatter-App/build/firebase_core/intermediates/library_manifest/release/AndroidManifest.xml:10:17-123
+68                android:value="com.google.firebase.components.ComponentRegistrar" />
+68-->[:firebase_core] /home/sumit/projects/flutter/messaging_app/Chatter-App/build/firebase_core/intermediates/library_manifest/release/AndroidManifest.xml:11:17-82
+69            <meta-data
+69-->[:firebase_messaging] /home/sumit/projects/flutter/messaging_app/Chatter-App/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:14:13-16:85
+70                android:name="com.google.firebase.components:io.flutter.plugins.firebasemessaging.FlutterFirebaseAppRegistrar"
+70-->[:firebase_messaging] /home/sumit/projects/flutter/messaging_app/Chatter-App/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:15:17-127
+71                android:value="com.google.firebase.components.ComponentRegistrar" />
+71-->[:firebase_messaging] /home/sumit/projects/flutter/messaging_app/Chatter-App/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:16:17-82
+72            <meta-data
+72-->[com.google.firebase:firebase-auth:19.2.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/a83bb62cb43b672cf00b874e0ee6110c/firebase-auth-19.2.0/AndroidManifest.xml:36:13-38:85
+73                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+73-->[com.google.firebase:firebase-auth:19.2.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/a83bb62cb43b672cf00b874e0ee6110c/firebase-auth-19.2.0/AndroidManifest.xml:37:17-109
+74                android:value="com.google.firebase.components.ComponentRegistrar" />
+74-->[com.google.firebase:firebase-auth:19.2.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/a83bb62cb43b672cf00b874e0ee6110c/firebase-auth-19.2.0/AndroidManifest.xml:38:17-82
+75            <meta-data
+75-->[com.google.firebase:firebase-firestore:21.3.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/d7922b024b57a72091c5bae297ef3c43/jetified-firebase-firestore-21.3.0/AndroidManifest.xml:20:13-22:85
+76                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+76-->[com.google.firebase:firebase-firestore:21.3.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/d7922b024b57a72091c5bae297ef3c43/jetified-firebase-firestore-21.3.0/AndroidManifest.xml:21:17-111
+77                android:value="com.google.firebase.components.ComponentRegistrar" />
+77-->[com.google.firebase:firebase-firestore:21.3.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/d7922b024b57a72091c5bae297ef3c43/jetified-firebase-firestore-21.3.0/AndroidManifest.xml:22:17-82
+78            <meta-data
+78-->[com.google.firebase:firebase-iid:20.0.1] /home/sumit/.gradle/caches/transforms-2/files-2.1/8ae3a27e5f765ecccfa84ccab34e1473/firebase-iid-20.0.1/AndroidManifest.xml:32:13-34:85
+79                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+79-->[com.google.firebase:firebase-iid:20.0.1] /home/sumit/.gradle/caches/transforms-2/files-2.1/8ae3a27e5f765ecccfa84ccab34e1473/firebase-iid-20.0.1/AndroidManifest.xml:33:17-96
+80                android:value="com.google.firebase.components.ComponentRegistrar" />
+80-->[com.google.firebase:firebase-iid:20.0.1] /home/sumit/.gradle/caches/transforms-2/files-2.1/8ae3a27e5f765ecccfa84ccab34e1473/firebase-iid-20.0.1/AndroidManifest.xml:34:17-82
+81        </service>
+82        <service android:name="io.flutter.plugins.firebasemessaging.FlutterFirebaseMessagingService" >
+82-->[:firebase_messaging] /home/sumit/projects/flutter/messaging_app/Chatter-App/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:8:9-12:19
+82-->[:firebase_messaging] /home/sumit/projects/flutter/messaging_app/Chatter-App/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:8:18-101
+83            <intent-filter>
+83-->[:firebase_messaging] /home/sumit/projects/flutter/messaging_app/Chatter-App/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:9:13-11:29
+84                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+84-->[:firebase_messaging] /home/sumit/projects/flutter/messaging_app/Chatter-App/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:10:17-78
+84-->[:firebase_messaging] /home/sumit/projects/flutter/messaging_app/Chatter-App/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:10:25-75
+85            </intent-filter>
+86        </service>
+87
+88        <activity
+88-->[com.google.firebase:firebase-auth:19.2.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/a83bb62cb43b672cf00b874e0ee6110c/firebase-auth-19.2.0/AndroidManifest.xml:24:9-31:50
+89            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+89-->[com.google.firebase:firebase-auth:19.2.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/a83bb62cb43b672cf00b874e0ee6110c/firebase-auth-19.2.0/AndroidManifest.xml:25:13-85
+90            android:excludeFromRecents="true"
+90-->[com.google.firebase:firebase-auth:19.2.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/a83bb62cb43b672cf00b874e0ee6110c/firebase-auth-19.2.0/AndroidManifest.xml:26:13-46
+91            android:exported="true"
+91-->[com.google.firebase:firebase-auth:19.2.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/a83bb62cb43b672cf00b874e0ee6110c/firebase-auth-19.2.0/AndroidManifest.xml:27:13-36
+92            android:launchMode="singleTask"
+92-->[com.google.firebase:firebase-auth:19.2.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/a83bb62cb43b672cf00b874e0ee6110c/firebase-auth-19.2.0/AndroidManifest.xml:28:13-44
+93            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+93-->[com.google.firebase:firebase-auth:19.2.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/a83bb62cb43b672cf00b874e0ee6110c/firebase-auth-19.2.0/AndroidManifest.xml:29:13-102
+94            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+94-->[com.google.firebase:firebase-auth:19.2.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/a83bb62cb43b672cf00b874e0ee6110c/firebase-auth-19.2.0/AndroidManifest.xml:30:13-72
+95        <!--
+96             FirebaseMessagingService performs security checks at runtime,
+97             but set to not exported to explicitly avoid allowing another app to call it.
+98        -->
+99        <service
+99-->[com.google.firebase:firebase-messaging:20.0.1] /home/sumit/.gradle/caches/transforms-2/files-2.1/e1793bd60f7e82af5115adf575068285/jetified-firebase-messaging-20.0.1/AndroidManifest.xml:28:9-34:19
+100            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+100-->[com.google.firebase:firebase-messaging:20.0.1] /home/sumit/.gradle/caches/transforms-2/files-2.1/e1793bd60f7e82af5115adf575068285/jetified-firebase-messaging-20.0.1/AndroidManifest.xml:29:13-82
+101            android:exported="false" >
+101-->[com.google.firebase:firebase-messaging:20.0.1] /home/sumit/.gradle/caches/transforms-2/files-2.1/e1793bd60f7e82af5115adf575068285/jetified-firebase-messaging-20.0.1/AndroidManifest.xml:30:13-37
+102            <intent-filter android:priority="-500" >
+102-->[:firebase_messaging] /home/sumit/projects/flutter/messaging_app/Chatter-App/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:9:13-11:29
+103                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+103-->[:firebase_messaging] /home/sumit/projects/flutter/messaging_app/Chatter-App/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:10:17-78
+103-->[:firebase_messaging] /home/sumit/projects/flutter/messaging_app/Chatter-App/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:10:25-75
+104            </intent-filter>
+105        </service>
+106
+107        <receiver
+107-->[com.google.firebase:firebase-iid:20.0.1] /home/sumit/.gradle/caches/transforms-2/files-2.1/8ae3a27e5f765ecccfa84ccab34e1473/firebase-iid-20.0.1/AndroidManifest.xml:37:9-44:20
+108            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+108-->[com.google.firebase:firebase-iid:20.0.1] /home/sumit/.gradle/caches/transforms-2/files-2.1/8ae3a27e5f765ecccfa84ccab34e1473/firebase-iid-20.0.1/AndroidManifest.xml:38:13-78
+109            android:exported="true"
+109-->[com.google.firebase:firebase-iid:20.0.1] /home/sumit/.gradle/caches/transforms-2/files-2.1/8ae3a27e5f765ecccfa84ccab34e1473/firebase-iid-20.0.1/AndroidManifest.xml:39:13-36
+110            android:permission="com.google.android.c2dm.permission.SEND" >
+110-->[com.google.firebase:firebase-iid:20.0.1] /home/sumit/.gradle/caches/transforms-2/files-2.1/8ae3a27e5f765ecccfa84ccab34e1473/firebase-iid-20.0.1/AndroidManifest.xml:40:13-73
+111            <intent-filter>
+111-->[com.google.firebase:firebase-iid:20.0.1] /home/sumit/.gradle/caches/transforms-2/files-2.1/8ae3a27e5f765ecccfa84ccab34e1473/firebase-iid-20.0.1/AndroidManifest.xml:41:13-43:29
+112                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+112-->[com.google.firebase:firebase-iid:20.0.1] /home/sumit/.gradle/caches/transforms-2/files-2.1/8ae3a27e5f765ecccfa84ccab34e1473/firebase-iid-20.0.1/AndroidManifest.xml:42:17-81
+112-->[com.google.firebase:firebase-iid:20.0.1] /home/sumit/.gradle/caches/transforms-2/files-2.1/8ae3a27e5f765ecccfa84ccab34e1473/firebase-iid-20.0.1/AndroidManifest.xml:42:25-78
+113            </intent-filter>
+114        </receiver>
+115
+116        <provider
+116-->[com.google.firebase:firebase-common:19.3.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/7ee6e73811253eb14580a7aea676506b/jetified-firebase-common-19.3.0/AndroidManifest.xml:26:9-30:39
+117            android:name="com.google.firebase.provider.FirebaseInitProvider"
+117-->[com.google.firebase:firebase-common:19.3.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/7ee6e73811253eb14580a7aea676506b/jetified-firebase-common-19.3.0/AndroidManifest.xml:27:13-77
+118            android:authorities="com.ishandeveloper.chatter.firebaseinitprovider"
+118-->[com.google.firebase:firebase-common:19.3.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/7ee6e73811253eb14580a7aea676506b/jetified-firebase-common-19.3.0/AndroidManifest.xml:28:13-72
+119            android:exported="false"
+119-->[com.google.firebase:firebase-common:19.3.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/7ee6e73811253eb14580a7aea676506b/jetified-firebase-common-19.3.0/AndroidManifest.xml:29:13-37
+120            android:initOrder="100" />
+120-->[com.google.firebase:firebase-common:19.3.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/7ee6e73811253eb14580a7aea676506b/jetified-firebase-common-19.3.0/AndroidManifest.xml:30:13-36
+121
+122        <activity
+122-->[com.google.android.gms:play-services-base:17.1.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/6eb14f512292913515d869914807ad40/play-services-base-17.1.0/AndroidManifest.xml:23:9-26:75
+123            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+123-->[com.google.android.gms:play-services-base:17.1.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/6eb14f512292913515d869914807ad40/play-services-base-17.1.0/AndroidManifest.xml:24:13-79
+124            android:exported="false"
+124-->[com.google.android.gms:play-services-base:17.1.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/6eb14f512292913515d869914807ad40/play-services-base-17.1.0/AndroidManifest.xml:25:13-37
+125            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+125-->[com.google.android.gms:play-services-base:17.1.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/6eb14f512292913515d869914807ad40/play-services-base-17.1.0/AndroidManifest.xml:26:13-72
+126
+127        <meta-data
+127-->[com.google.android.gms:play-services-basement:17.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/dab5329182f51352b114774b20adfbae/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+128            android:name="com.google.android.gms.version"
+128-->[com.google.android.gms:play-services-basement:17.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/dab5329182f51352b114774b20adfbae/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+129            android:value="@integer/google_play_services_version" />
+129-->[com.google.android.gms:play-services-basement:17.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/dab5329182f51352b114774b20adfbae/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+130    </application>
+131
+132</manifest>

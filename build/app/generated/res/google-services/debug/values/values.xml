@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">1055816576939-oc2mnql4ng82mpp0g52kg1ke1jbnsru4.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://messaging-308c8.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">1055816576939</string>
+    <string name="google_api_key" translatable="false">AIzaSyCOSjqpclprcbdZUILPRCaaU7AA26MIZVA</string>
+    <string name="google_app_id" translatable="false">1:1055816576939:android:03efc27d7fd66ca4e1acee</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCOSjqpclprcbdZUILPRCaaU7AA26MIZVA</string>
+    <string name="google_storage_bucket" translatable="false">messaging-308c8.appspot.com</string>
+    <string name="project_id" translatable="false">messaging-308c8</string>
+</resources>

@@ -1,0 +1,4 @@
+#Fri May 07 21:43:59 IST 2021
+base.0=/home/sumit/projects/flutter/messaging_app/Chatter-App/build/app/intermediates/transforms/r8/release/0/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
